@@ -34,7 +34,7 @@ No caso da variável tipo valor, ela é armazenada como uma **"caixa"** que rece
 
 # Pilha
 
-**O último item que foi colocado é sempre o primeiro a sair. É sempre manipulado do último elemento**  
+**O último item que foi colocado é sempre o primeiro a sair. É sempre manipulado apartir do último elemento. A ideia é idêntica a uma pilha de livros.**  
 
 - **LIFO**
 - **Last in First Out**
