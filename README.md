@@ -27,7 +27,7 @@ A memória ram possui algumas regiões onde são armazenadas temporariamente nos
 ![boxing_unboxing](https://user-images.githubusercontent.com/111810585/219544246-cc121629-3229-4ba7-8a9d-38269c424c4b.jpg)
 
 
-Se eu tiver uma variável do **tipo Classe** **Funcionário** chamada **funcionario1**, essa variável **funcionário1** terá uma referência para o **Objeto Funcionario**. E se eu fizer uma outra variável chamada **funcionario2** e falar que ela recebe o **funcionario1**, então esta variável terá a mesma referência da **funcionário1** e as duas apontam para o mesmo Objeto. Ou seja, se eu alterar o objeto em qualquer uma das duas variáveis, então quando eu chamar o objeto em qualquer uma das duas terá o mesmo resultado de operações.
+Se eu tiver uma variável do **tipo Classe** **Funcionário** chamada **funcionario1**, essa variável **funcionário1** terá uma referência para o **Objeto Funcionario**. E se eu fizer uma outra variável chamada **funcionario2** e falar que ela recebe o **funcionario1**, então esta variável terá a mesma referência da **funcionário1** e as duas apontam para o mesmo Objeto. Ou seja, se eu alterar o objeto em qualquer uma das duas variáveis, então quando eu chamar o objeto em qualquer uma das duas terá o mesmo resultado da  operação.
 
 No caso da variável tipo valor, ela é armazenada como uma **"caixa"** que recebe o valor da variável na região da memória chamada **Stack**, já uma variável do tipo valor é armazenada na região **Stack** como um **ponteiro** que guarda um **endereço** **de** **memória** que apontará para um **Objeto** na região da memória chamada **Heap**.
 
