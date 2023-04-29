@@ -22,7 +22,7 @@ Ele é um espaço em memória que armazena tanto um **dado** que queremos armaze
 
 Na memória ram, quando você cria uma variável, ela é armazenada em uma região da memória que representará o valor da variável por bits/byte
 
-A memória ram possui algumas regiões onde são armazenadas temporariamente nossas variáveis. Uma variável do tipo primitivo ela armazena um valor, por isso é uma variável do tipo valor. Já um variável do tipo Classe, é chamada tipo referência pois a variável irá armazenar um endereço de memória que apontará para um Objeto. Ou seja, a variável em si, não é um objeto, mas sim uma referência para um Objeto, por exemplo:
+A memória ram possui algumas regiões onde são armazenadas temporariamente nossas variáveis. Uma variável do tipo primitivo ela armazena um valor, por isso é uma variável do tipo valor. Já um variável do tipo Classe, é chamada tipo referência pois a variável irá armazenar um endereço de memória que apontará para um Objeto. Ou seja, a variável em si, não é um objeto, mas sim uma referência para um Objeto. Por exemplo:
 
 ![boxing_unboxing](https://user-images.githubusercontent.com/111810585/219544246-cc121629-3229-4ba7-8a9d-38269c424c4b.jpg)
 
